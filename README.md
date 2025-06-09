@@ -1,2 +1,6 @@
-# ChakYanDigitalArt2025
+# Chak Yan Digital Art 2025
 Repository for the code of Chak Yan Digital Art Competition 2025
+
+# Main procedures
+1. Students will generate an AI picture using Stabl Diffusion XL (See Stable_diffusion_XL.ipynb)
+2. Students will then create different objects using the Turtle Module in Python (See the file turtle_code for the examples)
