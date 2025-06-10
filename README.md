@@ -1,5 +1,5 @@
-# Chak Yan Digital Art 2025
-Repository for the code of Chak Yan Digital Art Competition 2025
+# Digital Art 2025
+Repository for the code of Digital Art Competition 2025
 
 
 ### Main methods
