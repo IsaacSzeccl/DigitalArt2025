@@ -21,7 +21,7 @@ wind2 = build_turtle(0, 5, "blue", None)
 sc = turtle.Screen()  
 sc.setup(1024, 1024) 
 sc.tracer(0) # to update each frame manually after drawing by sc.update()
-sc.bgpic("python-drawing/turtle_code/mountain.png")
+sc.bgpic("./turtle_code/mountain.png")
 
 def draw_circle(t, radius, x, y):
     # Draw a filled circle for the center of wind turbine
@@ -102,10 +102,10 @@ while True:
             # reset wind_pos once out of range
             wind_pos = -500
     
-    time.sleep(0.01) # decide delay between each frame
+    time.sleep(0.1) # decide delay between each frame
     
-    draw_turbine(-250, 220, frame*3)
-    draw_turbine(-350, 180, (frame+5)*3)
+    draw_turbine(-250, 220, frame*2)
+    draw_turbine(-350, 180, (frame+5)*2)
 
     sc.update()
 
